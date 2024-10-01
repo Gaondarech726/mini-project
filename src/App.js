@@ -1,5 +1,11 @@
+import WishesForm from "./components/wishesForm/wishesForm";
+
 function App() {
-  return {};
+  return (
+    <>
+      <WishesForm></WishesForm>
+    </>
+  );
 }
 
 export default App;
