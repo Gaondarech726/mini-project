@@ -8,21 +8,21 @@ const Hero = () => {
 
         <div className="heroPiesContainer">
           <div className="heroWhiskDiv">
-            <img src="./img/venchik.png" alt="" />
+            <img src="/public/img/hero/venchik.png" alt="" />
           </div>
 
           <div className="heroCakeDiv">
-            <img src="./img/cake.png" alt="" />
+            <img src="/public/img/hero/cake.png" alt="" />
             <h4>мусові торти</h4>
           </div>
 
           <div className="heroStrangePieDiv">
-            <img src="./img/strange_pie.png" alt="" />
+            <img src="/public/img/hero/strange_pie.png" alt="" />
             <h4>заварні шу</h4>
           </div>
 
           <div className="heroPieDiv">
-            <img src="./img/pie.png" alt="" />
+            <img src="/public/img/hero/pie.png" alt="" />
             <h4>апетитні тарти</h4>
           </div>
 
