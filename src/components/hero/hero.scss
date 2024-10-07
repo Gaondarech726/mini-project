@@ -4,8 +4,7 @@
 
 @import url("https://db.onlinewebfonts.com/c/4eb517f323a8fe5d14889f4cb4e68284?family=Jeff+Script+Web"); //(pies names)
 
-@import url("https://db.onlinewebfonts.com/c/a81c6ef023e90fb9f87ac017d242a337?family=Montserrat"); //(p text)
-// ==
+@import url("https://db.onlinewebfonts.com/c/a81c6ef023e90fb9f87ac017d242a337?family=Montserrat"); // ==
 
 * {
   margin: 0;
@@ -20,7 +19,7 @@
     width: 100vw;
     height: 1121px;
 
-    background-image: url(./img/hero-hero.png);
+    background-image: url("./img/hero-hero.png");
     background-size: 100vw 880px;
     background-repeat: no-repeat;
 
@@ -72,8 +71,6 @@
         left: 110px;
 
         width: 584.13px;
-
-        // !!photo is croped!!
 
         h4 {
           position: absolute;
@@ -176,7 +173,7 @@
 }
 @media (max-width: 768px) {
   .heroDiv {
-    background-image: url(./img/hero-hero.png);
+    background-image: url("./img/hero-hero.png");
     background-size: 100vw 672px;
     background-repeat: no-repeat;
     display: flex;
@@ -237,8 +234,6 @@
         left: 110px;
 
         width: 584.13px;
-
-        // !!photo is croped!!
 
         h4 {
           position: absolute;
