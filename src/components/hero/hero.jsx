@@ -1,42 +1,61 @@
 import "./hero.scss";
 
+import cake from "./img/cake.png";
+import pie from "./img/pie.png";
+import strange_pie from "./img/strange_pie.png";
+import whisk from "./img/venchik.png";
+
+import tBtn from "../social_media_svgs/telegram.svg";
+import iBtn from "../social_media_svgs/instagram.svg";
+import fBtn from "../social_media_svgs/facebook.svg";
+
 const Hero = () => {
   return (
-    <div className="heroHeader">
+    <div className="heroDiv">
       <div className="heroAuthorsDeserts">
         <h1 className="heroName">Авторські десерти </h1>
 
         <div className="heroPiesContainer">
           <div className="heroWhiskDiv">
-            <img src="/public/img/hero/venchik.png" alt="" />
+            <img className="whiskImg" src={whisk} alt="" />
           </div>
 
           <div className="heroCakeDiv">
-            <img src="/public/img/hero/cake.png" alt="" />
+            <img className="cakeImg" src={cake} alt="" />
             <h4>мусові торти</h4>
           </div>
 
           <div className="heroStrangePieDiv">
-            <img src="/public/img/hero/strange_pie.png" alt="" />
-            <h4>заварні шу</h4>
+            <img className="strangePieImg" src={strange_pie} alt="" />
+            <h4>
+              заварні <br /> шу
+            </h4>
           </div>
 
           <div className="heroPieDiv">
-            <img src="/public/img/hero/pie.png" alt="" />
-            <h4>апетитні тарти</h4>
+            <img className="pieImg" src={pie} alt="" />
+            <h4>
+              апетитні
+              <br />
+              тарти
+            </h4>
           </div>
 
-          <div className="heroPDiv">
-            <p className="heroP">
-              Виготовляємо десерти під замовлення з любов’ю та користю
-            </p>
-          </div>
+          <p className="heroP">
+            Виготовляємо десерти під замовлення з любов’ю та користю
+          </p>
         </div>
 
         <div className="heroSocialMedia">
-          <button className="heroTelegramBtn">T</button>
-          <button className="heroFacebookBtn">F</button>
-          <button className="heroInstagramBtn">I</button>
+          <button className="heroTelegramBtn">
+            <img src={tBtn} alt="" />
+          </button>
+          <button className="heroFacebookBtn">
+            <img src={fBtn} alt="" />
+          </button>
+          <button className="heroInstagramBtn">
+            <img src={iBtn} alt="" />
+          </button>
         </div>
       </div>
     </div>
