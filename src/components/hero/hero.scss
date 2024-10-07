@@ -1,0 +1,323 @@
+// FONTS
+
+// @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+// @import url("https://db.onlinewebfonts.com/c/4eb517f323a8fe5d14889f4cb4e68284?family=Jeff+Script+Web");
+
+// @import url("https://db.onlinewebfonts.com/c/a81c6ef023e90fb9f87ac017d242a337?family=Montserrat");
+
+// ==
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .heroDiv {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    height: 1121px;
+
+    background-image: url("./img/hero-hero.png");
+    background-size: 100vw 880px;
+    background-repeat: no-repeat;
+
+    position: relative;
+    // background-color: #f5eee0;
+
+    h1 {
+      display: flex;
+      justify-content: center;
+
+      font-family: "Alumni Sans";
+      font-size: 100px;
+      font-weight: 600;
+
+      color: #705a66;
+    }
+
+    .heroPiesContainer {
+      width: 1199px;
+      height: 986px;
+
+      position: relative;
+
+      margin-left: 52px;
+
+      //ALL H4 FONTS
+      h4 {
+        font-family: "Jeff Script Web";
+        font-size: 34px;
+        font-weight: 400;
+
+        color: #705a66;
+      }
+
+      .heroWhiskDiv {
+        width: 384px;
+        height: 594px;
+
+        position: absolute;
+        top: 26.7807px;
+        left: 50%;
+        transform: translateX(-60%);
+      }
+
+      .heroCakeDiv {
+        position: absolute;
+
+        bottom: 300px;
+        left: 110px;
+
+        width: 584.13px;
+
+        h4 {
+          position: absolute;
+          transform: rotate(340deg);
+
+          top: 0;
+        }
+      }
+      .heroStrangePieDiv {
+        width: 280px;
+        height: 238px;
+
+        position: relative;
+
+        left: 100px;
+
+        img {
+          width: 211.88px;
+
+          position: absolute;
+          right: 10px;
+        }
+        h4 {
+          position: absolute;
+
+          bottom: 45px;
+          left: 40px;
+
+          transform: rotate(330deg);
+
+          text-align: center;
+          line-height: 1.25;
+        }
+      }
+      .heroPieDiv {
+        width: 358px;
+        height: 442px;
+
+        position: absolute;
+
+        right: 70px;
+        bottom: 49%;
+
+        img {
+          width: 300px;
+        }
+        h4 {
+          position: absolute;
+          top: 80px;
+          right: 100px;
+
+          transform: rotate(20deg);
+
+          text-align: center;
+          line-height: 1.25;
+        }
+      }
+      .heroP {
+        width: 287px;
+        height: 44px;
+
+        position: absolute;
+
+        right: 110px;
+        bottom: 46%;
+
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 600;
+
+        color: #705a66;
+      }
+    }
+
+    .heroSocialMedia {
+      visibility: visible;
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      position: absolute;
+      bottom: 430px;
+      right: 100px;
+
+      width: 24px;
+      height: 109px;
+
+      button {
+        width: 25px;
+        height: 25px;
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .heroDiv {
+    background-image: url("./img/hero-hero.png");
+    background-size: 100vw 672px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    height: 672px;
+
+    // background-color: #f5eee0;
+
+    h1 {
+      display: flex;
+      justify-content: center;
+
+      font-family: "Alumni Sans";
+      font-size: 80px;
+      font-weight: 600;
+
+      color: #705a66;
+    }
+
+    .heroPiesContainer {
+      width: 1199px;
+      height: 986px;
+
+      position: relative;
+
+      margin-left: 52px;
+
+      //ALL H4 FONTS
+      h4 {
+        font-family: "Jeff Script Web";
+        font-size: 28px;
+        font-weight: 400;
+
+        color: #705a66;
+      }
+
+      .heroWhiskDiv {
+        width: 254px;
+        height: 366px;
+
+        position: absolute;
+        top: 26.7807px;
+        left: 50%;
+        transform: translateX(-60%);
+
+        img {
+          width: 254px;
+          height: 366px;
+        }
+      }
+
+      .heroCakeDiv {
+        position: absolute;
+
+        bottom: 300px;
+        left: 110px;
+
+        width: 584.13px;
+
+        h4 {
+          position: absolute;
+          transform: rotate(340deg);
+
+          top: 0;
+        }
+      }
+      .heroStrangePieDiv {
+        width: 88px;
+        height: 238px;
+
+        position: relative;
+
+        left: 100px;
+
+        img {
+          width: 211.88px;
+
+          position: absolute;
+          right: 10px;
+        }
+        h4 {
+          position: absolute;
+
+          bottom: 45px;
+          left: 40px;
+
+          transform: rotate(330deg);
+
+          text-align: center;
+          line-height: 1.25;
+        }
+      }
+      .heroPieDiv {
+        width: 358px;
+        height: 442px;
+
+        position: absolute;
+
+        right: 70px;
+        bottom: 49%;
+
+        img {
+          width: 300px;
+        }
+        h4 {
+          position: absolute;
+          top: 80px;
+          right: 100px;
+
+          transform: rotate(20deg);
+
+          text-align: center;
+          line-height: 1.25;
+        }
+      }
+      .heroP {
+        width: 287px;
+        height: 44px;
+
+        position: absolute;
+
+        right: 110px;
+        bottom: 46%;
+
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 600;
+
+        color: #705a66;
+      }
+    }
+
+    .heroSocialMedia {
+      visibility: hidden;
+      display: none;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .heroDiv {
+    background-color: rgb(17, 255, 0);
+  }
+}
