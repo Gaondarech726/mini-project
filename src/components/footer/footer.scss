@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 .footer_content {
   background: rgba(112, 90, 102, 1);
   height: 378px;
@@ -7,6 +12,11 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
 
   p {
     //styleName: desktop/main text;

@@ -1,13 +1,14 @@
-import About from "./components/about/about";
-import Hero from "./components/hero/hero";
-import WishesForm from "./components/wishesForm/wishesForm";
+import Body from "./components/body";
+import Footer from "./components/footer/Footer";
+
 
 function App() {
   return (
     <>
-      <WishesForm></WishesForm>
+      <Body></Body>
+      <Footer></Footer>
     </>
   );
-}
+};
 
 export default App;
