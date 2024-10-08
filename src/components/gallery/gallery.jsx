@@ -10,20 +10,38 @@ const Gallery = () => {
       <div className="Gallery">
         <div className="choose">
           <img src={cakeImg} alt="" />
-          <p>ТОРТИ</p>
-          <button className="moreCakes">→</button>
+          <div className="cont">
+            <div className="pCont">
+              <p>ТОРТИ</p>
+            </div>
+            <div className="btnCont">
+              <button className="moreCakes">→</button>
+            </div>
+          </div>
         </div>
         <div className="choose">
           <img src={ShuImg} alt="" />
-          <p>ШУ</p>
+          <div className="cont">
+            <div className="pCont">
+              <p>ШУ</p>
+            </div>
+          </div>
         </div>
         <div className="choose">
           <img src={miniCakeImg} alt="" />
-          <p>ТІСТЕЧКА</p>
+          <div className="cont">
+            <div className="pCont">
+              <p>ТІСТЕЧКА</p>
+            </div>
+          </div>
         </div>
         <div className="choose">
           <img src={pizzaImg} alt="" />
-          <p>ПІЦА</p>
+          <div className="cont">
+            <div className="pCont">
+              <p>ПІЦА</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
