@@ -1,18 +1,28 @@
 const Form = () => {
   return (
     <div className="formContent__wishesForm">
-      <form>
-        <input name="name" placeholder="Ім'я" type="text"></input>
+      <form className="form__wishesForm">
+        <input
+          name="nameUser"
+          placeholder="Ім'я"
+          type="text"
+          className="input__wishesForm"
+          id="nameUser"
+        ></input>
         <input
           name="numberPhone"
           placeholder="Номер телефону"
           type="number"
+          className="input__wishesForm"
+          id="numberPhone"
         ></input>
-        <input
-          name="basicText"
+        <textarea
           placeholder="Опишіть ваші побажання:"
+          name="wishesText"
           type="text"
-        ></input>
+          className="input__wishesForm"
+          id="wishesText"
+        ></textarea>
         <button type="sumbit">Надіслати</button>
       </form>
     </div>
