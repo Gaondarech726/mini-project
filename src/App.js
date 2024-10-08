@@ -1,3 +1,4 @@
+import "../src/index.css";
 import About from "./components/about/about";
 import Footer from "./components/footer/footer";
 import Gallery from "./components/gallery/gallery";
@@ -7,8 +8,8 @@ import WishesForm from "./components/wishesForm/wishesForm";
 function App() {
   return (
     <>
-      <About></About>
       <Hero></Hero>
+      <About></About>
       <Gallery></Gallery>
       <WishesForm></WishesForm>
       <Footer></Footer>
