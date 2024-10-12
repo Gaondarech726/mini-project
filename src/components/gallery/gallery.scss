@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .choose {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      width: 276px;
+      border-radius: 10px;
+      background: rgba(245, 238, 224, 1);
+
+      //styleName: desktop/bttn;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 32px;
+      text-align: center;
+      padding-top: 19px;
+      padding-bottom: 16px;
+
+      color: rgba(112, 90, 102, 1);
+
+      margin-top: -50px;
+    }
+    .moreCakes {
+      width: 67px;
+      height: 67px;
+      background: rgba(112, 90, 102, 1);
+      color: rgba(245, 238, 224, 1);
+      border-radius: 50%;
+      border: none;
+      margin-top: -91px;
+      margin-left: 257px;
+      font-size: larger;
+    }
+  }
+}
