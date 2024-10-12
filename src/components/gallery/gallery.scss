@@ -10,7 +10,31 @@
     align-items: center;
     flex-direction: column;
 
-    p {
+    position: relative;
+    height: 270px;
+    margin-bottom: 100px;
+
+    .cont{
+      position: relative;
+      height: 67px;
+      width: 300px;
+
+      bottom: 50px;
+    
+    .moreCakes {
+      width: 67px;
+      height: 67px;
+      background: rgba(112, 90, 102, 1);
+      color: rgba(245, 238, 224, 1);
+      border-radius: 50%;
+      border: none;
+      font-size: larger;
+
+      position: absolute;
+      right: 0;
+    }
+  }
+  p {
       width: 276px;
       border-radius: 10px;
       background: rgba(245, 238, 224, 1);
@@ -26,18 +50,8 @@
 
       color: rgba(112, 90, 102, 1);
 
-      margin-top: -50px;
-    }
-    .moreCakes {
-      width: 67px;
-      height: 67px;
-      background: rgba(112, 90, 102, 1);
-      color: rgba(245, 238, 224, 1);
-      border-radius: 50%;
-      border: none;
-      margin-top: -91px;
-      margin-left: 257px;
-      font-size: larger;
+      position: absolute;
+
     }
   }
 }
