@@ -6,6 +6,7 @@ const About = () => {
 	return (
 		<>
 			<div className='about'>
+				<h3 className='aboutMobileText'>Про мене</h3>
 				<img src={photoImg} alt='photoo' className='aboutImg' />
 
 				<div className='aboutContainer'>

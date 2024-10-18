@@ -13,6 +13,16 @@
 	font-family: Montserrat;
 	color: #705a66;
 
+	.aboutMobileText {
+		font-family: Alumni Sans;
+		font-size: 80px;
+		font-weight: 600;
+		line-height: 80px;
+		text-align: center;
+
+		display: none;
+	}
+
 	.aboutImg {
 		width: 499px;
 	}
@@ -66,5 +76,41 @@
 @media (max-width: 375px) {
 	.about {
 		flex-direction: column;
+
+		width: 355px;
+		height: 1143px;
+
+		padding: 0;
+		margin: 0 auto;
+
+		.aboutMobileText {
+			display: block;
+		}
+
+		.aboutWho {
+			text-align: center;
+		}
+
+		.aboutImg {
+			width: 355px;
+		}
+
+		.aboutContainer {
+			height: 434px;
+			width: 355px;
+
+			.aboutNameImg {
+				display: none;
+			}
+		}
+
+		.aboutWho {
+			height: 50px;
+		}
+
+		.aboutDescription {
+			width: 355px;
+			height: 352px;
+		}
 	}
 }
